@@ -63,11 +63,13 @@ _Student NetID_: cl104
   - The students can choose to encrpt the assignment as well as using secure wireless network. Or they can use wired network to submit the assignment. The password to encrpt the assignment need to be shown to the students in the class.
 
 ## Problem 3
-- Scenario: Your choice (give a brief explanation)
+- Scenario: Gatekeeper of the goverment building. The gatekeeper controls who can enter the building. Only the people with proper ID are allowed by the gatekeeper to enter it.
 - Assumptions:
-  - explain_your_assumptions
+  - The gatekeeper has the scan machine that can read the ID card and show that whether the person has the permission to enter the building.
+  - The gatekeeper will follow his duty and will not be bribed to let someone in. 
+  - This gatekeeper's duty are controling the access only at the frontdoor. Other doors are not his duty.
 - Assets:
-  - explanatory_paragraph
+  - The scanner. It is the assets we need to protect. Without the scanner, the 
   - explanatory_paragraph ...
 - Threats:
   - explanatory_paragraph 
