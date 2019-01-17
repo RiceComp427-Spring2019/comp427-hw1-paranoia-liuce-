@@ -76,8 +76,8 @@ _Student NetID_: cl104
 - Threats:
   - Since the scan machine uses wireless network to get the data from the database, there is a potential threat that the wireless network is down and the gatekeeper will not know who has the permission. In this case, no one can enter the building.
   - Some criminals can copy an ID to make the scanner believe they have the permission to enter. They can get the information of a real ID by either taking a picture of a real ID or listening to the data transmitted in the wireless network.
-  - explanatory_paragraph ...
+
 - Countermeasures:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  - The scan machine should have a bachup way to connect to the company's network. It can have an ethernet port that allows itself use the wired network or have a sim card tray that can access to the carrier's network. In both ways, the scanner is able to connect to the company's network when the wireless network is down.
+  - 
 
