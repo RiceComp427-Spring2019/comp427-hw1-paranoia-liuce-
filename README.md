@@ -70,10 +70,11 @@ _Student NetID_: cl104
   - This gatekeeper's duty are controling the access only at the frontdoor. Other doors are not in his duty.
   - The scan machine needs to connect to the company's wireless network to retrive the data from the database.
 - Assets:
-  - The scanner. It is the assets we need to protect. Without the scanner, the gatekeeper can not decide which person has the permission to enter the building. The scanner is the only thing that has the information of
+  - The scanner. It is the assets we need to protect. Without the scanner, the gatekeeper can not decide which person has the permission to enter the building.
   - The safety of the gatekeeper. 
+  - The safety enviroment of the building.
 - Threats:
-  - explanatory_paragraph 
+  - Since the scan machine uses wireless network to  
   - explanatory_paragraph ...
 - Countermeasures:
   - explanatory_paragraph
