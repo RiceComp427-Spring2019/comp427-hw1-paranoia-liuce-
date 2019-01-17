@@ -45,9 +45,9 @@ _Student NetID_: cl104
 - Scenario: Grading
 - Assumptions:
   - Students turn in the assginments using Canvas.
-  - I start to grade the assignments after the deadline.
-  - I grade the assignments by downloading the file and reviewing it. After I grade the assignments, I put the grade on Canvas.
-  - After the grading is completed, I make grade visible to students on Canvas.
+  - TA starts to grade the assignments after the deadline.
+  - TA grades the assignments by downloading the file and reviewing it. After I grade the assignments, I put the grade on Canvas.
+  - After the grading is completed, TA make grade visible to students on Canvas.
 - Assets:
   - The assignments that the students have are the important assets we need to protect. They are the intellectual property of students so they are assets. Besides that, the assignments shoubld be prevented from leaking becasue it is a violation of the Rice Honor Code and may make the privacy of students vulnerable. Therefore, we need to protect it. 
   - The students' grades are the assets we need to protect, since any leak of the grades with the students name are considered of the violation of the students' privacy. Therefore, we need to protect the students' grading. However, the distribution of the grading without the students' indentities are not considered as the assets that we need to protect. It is a assets of course because we can evaluate how much knowledge and how well the students have learned so that we can adjust what knowledge we should teach and how we teach them. But it is not the assets we need to protect because it is fine to open these data to the public. 
@@ -55,10 +55,12 @@ _Student NetID_: cl104
   - Some students may have the username and the password of some other students so that they can view other students' assignments as well as make some modification on the assignments. 
   - Some crackers may have the username asn the password of the TA's account so that they can view and change the grades of the students as they want.
   - Lots of the students turn in the assignments frequently right before the deadline that cause the server too busy to respond. In this case, the students may not be able to submit the assignment anymore.
-  - The 
+  - When students use not secured wifi to submit the assignment, the assignment can be read by the crackers. If the crackers decided to share the assignment, it could lead to the violation of the Honor code and cause the students in trouble. The cracker can also modify the file uploaded that cause the student losing grade, which is very unlikely to be found, because usually the TA will not return the grading assignment therefore the TA and the students are not able to aware of it.
 - Countermeasures:
   - Enable two-factor authentication feature and make it a mandatory step when students are trying to log in their accounts. 
-  - explanatory_paragraph ...
+  - Enable two-factor authentication feature and ask the TA to use it whenever he/she logs in.
+  - Ask the students to submit the assignments early and limited the number of times that a student are allowed to submit in an hour when the final due is approaching. It could solve the problem but it also sacrafice the user experience. A better way to do it is by using Github. The TA can create an Github classroom proejct and ask students to submit it to the Github. Github has the ability to handle the submission of 200 students at the same time.
+  - The students can choose to encrpt the assignment as well as using secure wireless network. Or they can use wired network to submit the assignment. The password to encrpt the assignment need to be shown to the students in the class.
 
 ## Problem 3
 - Scenario: Your choice (give a brief explanation)
