@@ -44,40 +44,40 @@ _Student NetID_: cl104
 ## Problem 2
 - Scenario: Grading
 - Assumptions:
-  - Students turn in the assginments using Canvas.
+  - Students turn in the assignments using Canvas.
   - TA starts to grade the assignments after the deadline.
   - TA grades the assignments by downloading the file and reviewing it. After I grade the assignments, I put the grade on Canvas.
-  - After the grading is completed, TA make grade visible to students on Canvas.
+  - After the grading is completed, TA makes grade visible to students on Canvas.
 - Assets:
-  - The assignments that the students have are the important assets we need to protect. They are the intellectual property of students so they are assets. Besides that, the assignments shoubld be prevented from leaking becasue it is a violation of the Rice Honor Code and may make the privacy of students vulnerable. Therefore, we need to protect it. 
-  - The students' grades are the assets we need to protect, since any leak of the grades with the students name are considered of the violation of the students' privacy. Therefore, we need to protect the students' grading. However, the distribution of the grading without the students' indentities are not considered as the assets that we need to protect. It is a assets of course because we can evaluate how much knowledge and how well the students have learned so that we can adjust what knowledge we should teach and how we teach them. But it is not the assets we need to protect because it is fine to open these data to the public. 
+  - The assignments that the students have are the important assets we need to protect. They are the intellectual property of students so they are assets. Besides that, the assignments should be prevented from leaking because it is a violation of the Rice Honor Code and may make the privacy of students vulnerable. Therefore, we need to protect it. 
+  - The students' grades are the assets we need to protect since any leak of the grades with the students' name is considered of the violation of the students' privacy. Therefore, we need to protect the students' grading. However, the distribution of the grading without the students' identities are not considered as the assets that we need to protect. It is an asset of course because we can evaluate how much knowledge and how well the students have learned so that we can adjust what knowledge we should teach and how we teach them. But it is not the assets we need to protect because it is fine to open these data to the public. 
 - Threats:
   - Some students may have the username and the password of some other students so that they can view other students' assignments as well as make some modification on the assignments. 
-  - Some crackers may have the username asn the password of the TA's account so that they can view and change the grades of the students as they want.
-  - Lots of the students turn in the assignments frequently right before the deadline that cause the server too busy to respond. In this case, the students may not be able to submit the assignment anymore.
-  - When students use not secured wifi to submit the assignment, the assignment can be read by the crackers. If the crackers decided to share the assignment, it could lead to the violation of the Honor code and cause the students in trouble. The cracker can also modify the file uploaded that cause the student losing grade, which is very unlikely to be found, because usually the TA will not return the grading assignment therefore the TA and the students are not able to aware of it.
+  - Some crackers may have the username as the password of the TA's account so that they can view and change the grades of the students as they want.
+  - Lots of the students turn in the assignments frequently right before the deadline that causes the server too busy to respond. In this case, the students may not be able to submit the assignment anymore.
+  - When students use not secured wifi to submit the assignment, the assignment can be read by the crackers. If the crackers decided to share the assignment, it could lead to the violation of the Honor code and cause the students in trouble. The cracker can also modify the file uploaded that cause the student losing grade, which is very unlikely to be found because usually, the TA will not return the grading assignment, therefore, the TA and the students are not able to aware of it.
 - Countermeasures:
   - Enable two-factor authentication feature and make it a mandatory step when students are trying to log in their accounts. 
   - Enable two-factor authentication feature and ask the TA to use it whenever he/she logs in.
-  - Ask the students to submit the assignments early and limited the number of times that a student are allowed to submit in an hour when the final due is approaching. It could solve the problem but it also sacrafice the user experience. A better way to do it is by using Github. The TA can create an Github classroom proejct and ask students to submit it to the Github. Github has the ability to handle the submission of 200 students at the same time.
-  - The students can choose to encrpt the assignment as well as using secure wireless network. Or they can use wired network to submit the assignment. The password to encrpt the assignment need to be shown to the students in the class.
+  - Ask the students to submit the assignments early and limited the number of times that a student is allowed to submit in an hour when the final due is approaching. It could solve the problem but it also sacrifices the user experience. A better way to do it is by using Github. The TA can create a Github classroom project and ask students to submit it to the Github. Github has the ability to handle the submission of 200 students at the same time.
+  - The students can choose to encrypt the assignment as well as using a secure wireless network. Or they can use a wired network to submit the assignment. The password to encrypt the assignment need to be shown to the students in the class.
 
 ## Problem 3
 - Scenario: Gatekeeper of the company building. The gatekeeper controls who can enter the building. Only the people with proper ID are allowed by the gatekeeper to enter it.
 - Assumptions:
   - The gatekeeper has the scan machine that can read the ID card and show that whether the person has the permission to enter the building.
   - The gatekeeper will follow his duty and will not be bribed to let someone in. 
-  - This gatekeeper's duty are controling the access only at the frontdoor. Other doors are not in his duty.
-  - The scan machine needs to connect to the company's wireless network to retrive the data from the database.
+  - This gatekeeper's duty is controlling the access only at the front door. Other doors are not in his duty.
+  - The scan machine needs to connect to the company's wireless network to retrieve the data from the database.
 - Assets:
-  - The scanner. It is the assets we need to protect. Without the scanner, the gatekeeper can not decide which person has the permission to enter the building.
+  - The scanner. It is the assets we need to protect. Without the scanner, the gatekeeper cannot decide which person has the permission to enter the building.
   - The safety of the gatekeeper. 
-  - The safety enviroment of the building.
+  - The safe environment of the building.
 - Threats:
-  - Since the scan machine uses wireless network to get the data from the database, there is a potential threat that the wireless network is down and the gatekeeper will not know who has the permission. In this case, no one can enter the building.
+  - Since the scan machine uses a wireless network to get the data from the database, there is a potential threat that the wireless network is down and the gatekeeper will not know who has the permission. In this case, no one can enter the building.
   - Some criminals can copy an ID to make the scanner believe they have the permission to enter. They can get the information of a real ID by either taking a picture of a real ID or listening to the data transmitted in the wireless network.
 
 - Countermeasures:
-  - The scan machine should have a bachup way to connect to the company's network. It can have an ethernet port that allows itself use the wired network or have a sim card tray that can access to the carrier's network. In both ways, the scanner is able to connect to the company's network when the wireless network is down.
-  - 
+  - The scan machine should have a back-up way to connect to the company's network. It can have an ethernet port that allows itself use the wired network or have a sim card tray that can access the carrier's network. In both ways, the scanner is able to connect to the company's network when the wireless network is down.
+  - The company should insert a chip inside the ID card that can allow the scanner to read the data in it, just like the chips on the credit cards. This makes the copying the ID card impossible by only taking the picture. There must be physical contact to make the copy possible.
 
