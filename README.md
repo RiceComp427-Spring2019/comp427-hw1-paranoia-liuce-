@@ -52,10 +52,12 @@ _Student NetID_: cl104
   - The assignments that the students have are the important assets we need to protect. They are the intellectual property of students so they are assets. Besides that, the assignments shoubld be prevented from leaking becasue it is a violation of the Rice Honor Code and may make the privacy of students vulnerable. Therefore, we need to protect it. 
   - The students' grades are the assets we need to protect, since any leak of the grades with the students name are considered of the violation of the students' privacy. Therefore, we need to protect the students' grading. However, the distribution of the grading without the students' indentities are not considered as the assets that we need to protect. It is a assets of course because we can evaluate how much knowledge and how well the students have learned so that we can adjust what knowledge we should teach and how we teach them. But it is not the assets we need to protect because it is fine to open these data to the public. 
 - Threats:
-  - Some students may have the username and the password 
-  - explanatory_paragraph ...
+  - Some students may have the username and the password of some other students so that they can view other students' assignments as well as make some modification on the assignments. 
+  - Some crackers may have the username asn the password of the TA's account so that they can view and change the grades of the students as they want.
+  - Lots of the students turn in the assignments frequently right before the deadline that cause the server too busy to respond. In this case, the students may not be able to submit the assignment anymore.
+  - The 
 - Countermeasures:
-  - explanatory_paragraph
+  - Enable two-factor authentication feature and make it a mandatory step when students are trying to log in their accounts. 
   - explanatory_paragraph ...
 
 ## Problem 3
